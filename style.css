@@ -1,0 +1,30 @@
+
+
+
+
+
+
+/* Header navbar */
+
+.header-nav{
+    background-color: #FFF;
+}
+
+.header-nav a{
+    text-decoration: none;
+    color: black;
+    font-size: small;
+    font-weight: 700;
+}
+
+#logo{
+    cursor: default;
+    color: #3F3F3F;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.3em;
+    font-weight: 700;
+    font-size: large;
+    
+}
+
