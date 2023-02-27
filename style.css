@@ -1,5 +1,7 @@
 
-
+a{
+    text-decoration: none;
+}
 
 
 
@@ -26,5 +28,53 @@
     font-weight: 700;
     font-size: large;
     
+}
+
+/* Who is me box */
+
+.who-is-me{
+    background-color: #FFB800;
+    color: #FFFFFF;
+    z-index: -1;
+}
+
+#who-text{
+    opacity: 0.9;
+}
+
+#my-projects{
+    padding: 10px 50px;
+    background-color: #FFFDFD;
+    color: #FFB800;
+    border-radius: 30px;
+    font-weight: 700;
+}
+
+#my-projects:hover{
+    background-color: #000000;
+    color: #FFFFFF;  
+}
+
+
+#download{
+    padding: 10px 50px;
+    background-color: #000000;
+    color: #FFFFFF;
+    border-radius: 30px;
+    font-weight: 700;
+}
+
+
+#download:hover{
+    background-color: #FFFDFD;
+    color: #FFB800;
+}
+
+.social img{
+    width: 40px;
+}
+
+#head-img{
+    height: 250px;
 }
 
