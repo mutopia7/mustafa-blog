@@ -5,7 +5,6 @@ a{
 
 
 
-
 /* Header navbar */
 
 .header-nav{
@@ -105,4 +104,95 @@ a{
 a.arrow{
     background-color: #FFB800;
     color: #FFF;
+}
+
+
+/* contact me box */
+
+#contact-me{
+    
+    color: #FFFFFF;
+    transform: skewY(-5deg)
+   
+}
+
+
+
+#formm{
+    background-color:#2A2A2A ;
+    
+    margin-top: -8px;
+}
+
+.form-enter {
+    transform: skewY(5deg);
+    width: 35%;
+    border-radius: 30px;
+    background-color: #C4C4C4;
+    color: #5F5F5F;
+    font-weight: 600;
+    padding: 10px 10px 10px 50px;
+    border: unset;
+    outline: unset;
+   
+
+}
+
+#name{
+    background-image: url('./images/Vector.svg');
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: 4%;
+}
+
+#email{
+    background-image: url('./images/Vector(2).svg');
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 4%;
+}
+
+#message{
+    background-image: url('./images/Vector(3).svg');
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: 4% 15%;
+    height: 100px;
+    resize: none;
+}
+
+#submit{
+    transform: skewY(5deg);
+    background-color: #FFB800;
+    color: #FFF;
+    border-radius: 30px;
+    padding: 10px 40px;
+    font-weight: 600;
+    border: unset;
+}
+
+#cover{
+    background-color: #2A2A2A;
+    height: 100px;
+    margin-top: -5px;
+}
+
+#cover2{
+    background-color: #2A2A2A;
+    height: 120px;
+    margin-top: -60px;
+}
+
+
+
+@media screen and (max-width:972px){
+    .form-enter{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:350px){
+    .form-enter{
+        width: 80%;
+    }
 }
